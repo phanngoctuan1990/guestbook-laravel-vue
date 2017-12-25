@@ -9,11 +9,13 @@ class SignatureResource extends Resource
     /**
      * Transform the resource into an array.
      *
-     * @param  \Illuminate\Http\Request
+     * @param \Illuminate\Http\Request $request request
+     *
      * @return array
      */
     public function toArray($request)
     {
+        $request = $request;
         return [
             'id'     => $this->id,
             'name'   => $this->name,

@@ -26,8 +26,8 @@ class SignatureController extends Controller
     /**
      * Fetch and return the signature.
      *
-     * @param Signature $signature
-     * 
+     * @param Signature $signature signature
+     *
      * @return SignatureResource
      */
     public function show(Signature $signature)
@@ -38,8 +38,8 @@ class SignatureController extends Controller
     /**
      * Validate and save a new signature to the database.
      *
-     * @param Request $request
-     * 
+     * @param Request $request request
+     *
      * @return SignatureResource
      */
     public function store(Request $request)

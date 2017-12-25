@@ -11,7 +11,8 @@ class Signature extends Model
     /**
      * Ignore flagged signatures.
      *
-     * @param $query
+     * @param Model $query query
+     *
      * @return mixed
      */
     public function scopeIgnoreFlagged($query)
@@ -32,7 +33,7 @@ class Signature extends Model
     /**
      * Get the user Gravatar by their email address.
      *
-     * @return string   
+     * @return string
      */
     public function getAvatarAttribute()
     {

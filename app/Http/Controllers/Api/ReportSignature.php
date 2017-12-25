@@ -10,7 +10,8 @@ class ReportSignature extends Controller
     /**
      * Flag the given signature.
      *
-     * @param Signature $signature
+     * @param Signature $signature signature
+     *
      * @return Signature
      */
     public function update(Signature $signature)
